@@ -76,6 +76,7 @@ const discountCodes = {
     grad:51,
     graduation: 51,
     gradteam: 51,
+    safa: 51,
 
 };
 
