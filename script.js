@@ -58,7 +58,10 @@ const toppingOptions = {
 const discountCodes = {
     yusuf: 100,
     alhelou: 100,
+    sonic: 100,
+    supersonic: 100,
     mariam: 100,
+    maryam: 100,
     mario: 100,
     israa: 99.99,
     yomna: 99.99,
@@ -67,6 +70,10 @@ const discountCodes = {
     mayar: 0.01,
     fiftyone: 51,
     51: 51,
+    seniors: 51,
+    graduates: 51,
+    graduate: 51,
+    grad:51,
     graduation: 51,
     gradteam: 51,
 
