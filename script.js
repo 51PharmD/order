@@ -159,7 +159,7 @@ const ToppingOption = ({ topping, toppingIcons }) => {
         mushrooms: "مشروم",
         pineapple: "أناناس",
         olives: "زيتون",
-        jalapenos: "هالبينو"
+        jalapenos: "هالابينيو"
     };
 
     return (
@@ -315,7 +315,7 @@ const OrderDetails = () => {
         mushrooms: "مشروم",
         pineapple: "أناناس",
         olives: "زيتون",
-        jalapenos: "هالبينو"
+        jalapenos: "هالابينيو"
     };
 
     return (
