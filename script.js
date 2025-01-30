@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext, useMemo, createContext } from "https://esm.sh/v135/react@18.3.1";
 import { createRoot } from "https://esm.sh/v135/react-dom@18.3.1";
-import { BrowserRouter, Routes, Route, useNavigate } from "https://esm.sh/v135/react-router-dom@6.24.1";
+import { HashRouter, Routes, Route, useNavigate } from "https://esm.sh/v135/react-router-dom@6.24.1";
+
 
 /* Global Variables */
 const sizeOptions = {
@@ -479,7 +480,6 @@ const Confirmation = () => {
     );
 };
 
-
 /* Pizza Builder */
 const PizzaBuilder = () => {
     return (
@@ -487,7 +487,7 @@ const PizzaBuilder = () => {
             React.createElement(Header, null),
             React.createElement("main", null,
                 React.createElement(PizzaProvider, null,
-                    React.createElement(BrowserRouter, null,
+                    React.createElement(HashRouter, null, // Replace BrowserRouter with HashRouter
                         React.createElement(Routes, null,
                             React.createElement(Route, { path: "/", element: React.createElement(Builder, null) }),
                             React.createElement(Route, { path: "*", element: React.createElement(Builder, null) }),
